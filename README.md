@@ -85,6 +85,7 @@ docker container run -d \
 
 9. Verificar containers em execução
 docker container ls
+
 🧪 Testes — CRUD Completo
 
 Substitua <IP_DA_VM> pelo IP público da sua VM Azure.
@@ -155,6 +156,7 @@ http://<IP_DA_VM>:8000/docs
 👨‍💻 Integrantes
 Henrique Pecora — RM556612
 Santhiago — RM98420
+
 🎥 Vídeo Demonstrativo
 
 Link do vídeo no YouTube:

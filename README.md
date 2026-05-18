@@ -65,8 +65,8 @@ docker volume create pgdata-dimdim
 docker container run -d \
   --name db-dimdim-556612 \
   --network rede-dimdim \
-  -e POSTGRES_USER=dimdim \
-  -e POSTGRES_PASSWORD=dimdim123 \
+  -e POSTGRES_USER=azureuser \
+  -e POSTGRES_PASSWORD=DimDim@20261 \
   -e POSTGRES_DB=dimdimdb \
   -v pgdata-dimdim:/var/lib/postgresql/data \
   postgres:15-alpine
